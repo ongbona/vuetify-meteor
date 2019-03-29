@@ -1,0 +1,50 @@
+{
+  "name": "meteor-ssr",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.5",
+    "apollo-cache-inmemory": "^1.4.3",
+    "apollo-client": "^2.4.13",
+    "apollo-link": "^1.2.8",
+    "apollo-link-http": "^1.5.11",
+    "bcrypt": "^3.0.4",
+    "chart.js": "^2.8.0",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "intersection-observer": "^0.5.1",
+    "isomorphic-fetch": "^2.2.1",
+    "less": "^3.9.0",
+    "lodash": "^4.17.11",
+    "meteor-node-stubs": "^0.4.1",
+    "moment": "^2.24.0",
+    "vue": "^2.6.8",
+    "vue-meteor-tracker": "^2.0.0-beta.5",
+    "vue-router": "^3.0.2",
+    "vue-router-sync": "^0.1.0",
+    "vuetify": "^2.0.0-alpha.10",
+    "vuetify-datetime-picker": "^1.0.13",
+    "vuex": "^3.1.0",
+    "vuex-persistedstate": "^2.5.4",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "src/client.js",
+      "server": "src/server.js"
+    },
+    "testModule": "src/app/tests/main.js"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "@mdi/font": "^3.5.95",
+    "material-design-icons-iconfont": "^4.0.5",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.8"
+  }
+}

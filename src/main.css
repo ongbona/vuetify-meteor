@@ -1,0 +1,103 @@
+body {
+  /* padding: 10px;
+  font-family: sans-serif; */
+}
+
+/* Material Icons */
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/default/MaterialIcons-Regular.eot");
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"),
+    url("./fonts/default/MaterialIcons-Regular.woff2") format("woff2"),
+    url("./fonts/default/MaterialIcons-Regular.woff") format("woff"),
+    url("./fonts/default/MaterialIcons-Regular.ttf") format("truetype");
+}
+
+/* Material Design Icons */
+@font-face {
+  font-family: "Material Design Icons";
+  src: url("./fonts/materialdesign/materialdesignicons-webfont.eot?v=2.5.94");
+  src: url("./fonts/materialdesign/materialdesignicons-webfont.eot?#iefix&v=2.5.94")
+      format("embedded-opentype"),
+    url("./fonts/materialdesign/materialdesignicons-webfont.woff2?v=2.5.94")
+      format("woff2"),
+    url("./fonts/materialdesign/materialdesignicons-webfont.woff?v=2.5.94")
+      format("woff"),
+    url("./fonts/materialdesign/materialdesignicons-webfont.ttf?v=2.5.94")
+      format("truetype"),
+    url("./fonts/materialdesign/materialdesignicons-webfont.svg?v=2.5.94#materialdesigniconsregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Font Awesome 5 */
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/fontawesome/fa-brands-400.eot");
+  src: url("./fonts/fontawesome/fa-brands-400.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/fa-brands-400.woff2") format("woff2"),
+    url("../webfonts/fa-brands-400.woff") format("woff"),
+    url("../webfonts/fa-brands-400.ttf") format("truetype"),
+    url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/fontawesome/fa-regular-400.eot");
+  src: url("./fonts/fontawesome/fa-regular-400.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/fa-regular-400.woff2") format("woff2"),
+    url("../webfonts/fa-regular-400.woff") format("woff"),
+    url("../webfonts/fa-regular-400.ttf") format("truetype"),
+    url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/fontawesome/fa-solid-900.eot");
+  src: url("./fonts/fontawesome/fa-solid-900.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/fa-solid-900.woff2") format("woff2"),
+    url("../webfonts/fa-solid-900.woff") format("woff"),
+    url("../webfonts/fa-solid-900.ttf") format("truetype"),
+    url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+/* .item-list .v-list__tile {
+  font-weight: 400 !important;
+}
+
+.sub-item-list .v-list__tile {
+  font-weight: 400 !important;
+}
+
+.sub-item-list-mini .v-list__tile {
+  font-weight: 400 !important;
+  font-size: 13px !important;
+  height: 40px !important;
+}
+.sub-item-list-mini .v-list__tile:hover {
+  background: rgba(0, 0, 0, 0.04);
+} */
+
+.shadow-box {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-box::before {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-box-none {
+  box-shadow: none !important;
+}
+.shadow-box-none::before {
+  box-shadow: none !important;
+}

@@ -1,0 +1,45 @@
+.collapse-list {
+  .collapse-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .collapse-title-icon {
+    flex: none;
+  }
+
+  .collapse-content:hover {
+    // border-radius: 4px;
+    // padding: 5px 5px 5px 5px;
+    background: #f4f5f8;
+  }
+
+  .list-title {
+    display: inline-block;
+    font-size: 14px;
+    color: #393a3d;
+    // margin-bottom: 7px;
+  }
+  .list-title:hover {
+    color: #409eff;
+    cursor: pointer;
+    transition: 0.15s ease-out;
+    transition-property: initial;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+  }
+  .list-memo {
+    font-size: 12px;
+    font-weight: 300;
+    color: #606266;
+  }
+
+  .collapse-item-active {
+    .v-expansion-panel-header {
+      color: #1976d2;
+    }
+    .collapse-title-icon {
+      color: #1976d2;
+    }
+  }
+}
